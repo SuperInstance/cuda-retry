@@ -1,0 +1,8 @@
+[package]
+name = "cuda-retry"
+version = "0.1.0"
+edition = "2021"
+description = "Retry strategies — exponential backoff, jitter, circuit breaker, and resilient execution patterns for unreliable operations"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
